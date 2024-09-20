@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11-jre-jammy
+FROM eclipse-temurin:21-jre-jammy
 
 ARG BUILD_DATE
 ARG TACHIDESK_RELEASE_TAG
@@ -8,9 +8,9 @@ ARG TACHIDESK_DOCKER_GIT_COMMIT
 
 LABEL maintainer="suwayomi" \
       org.opencontainers.image.title="Suwayomi Docker" \
-      org.opencontainers.image.authors="https://github.com/suwayomi" \
-      org.opencontainers.image.url="https://github.com/suwayomi/docker-tachidesk/pkgs/container/tachidesk" \
-      org.opencontainers.image.source="https://github.com/suwayomi/docker-tachidesk" \
+      org.opencontainers.image.authors="https://github.com/culturecloud" \
+      org.opencontainers.image.url="https://github.com/culturecloud/docker-tachidesk/pkgs/container/tachidesk" \
+      org.opencontainers.image.source="https://github.com/culturecloud/docker-tachidesk" \
       org.opencontainers.image.description="This image is used to start suwayomi server in a container" \
       org.opencontainers.image.vendor="suwayomi" \
       org.opencontainers.image.created=$BUILD_DATE \
